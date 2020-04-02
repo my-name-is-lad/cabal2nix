@@ -25,6 +25,7 @@ import Distribution.Nixpkgs.Haskell.OrphanInstances ( )
 import Distribution.Nixpkgs.Meta
 import Distribution.Package
 import Distribution.PackageDescription ( FlagAssignment, unFlagName, unFlagAssignment )
+import Distribution.Text
 import GHC.Generics ( Generic )
 import Language.Nix
 import Language.Nix.PrettyPrinting
